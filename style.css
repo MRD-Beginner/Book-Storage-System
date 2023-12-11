@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: #dde5f4; */
+}
+
+i{
+    font-size: 30px;
+    
+}
+
+body{
+    background: #f8f2ed;
+    padding: 5% 30%;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 30px; */
+    /* box-shadow: 0 0 2em #e6e9f9; */
+    gap: 2em;
+}
+
+.screen-1{
+    background-image: linear-gradient(180deg,#70a8ff, #9262ff);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 0 2em #e6e9f9;
+    gap: 1em;
+}
+
+.search_section{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #9262ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 1em;
+    font-weight: 800;
+    color: white;
+}
+
+.screen-1 .title {
+    margin-top: 0.2em;
+    margin-bottom: 0.1em;
+    font-family: 'roboto';
+    text-align: center;
+    font-size: 2em;
+    font-weight: 800;
+    color: white;
+}
+
+.screen-1 .input {
+    background: white;
+    box-shadow: 0 0 2em #e6e9f9;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    color: #4d4d4d;
+}
+
+input{
+    outline: none;
+    border: none;
+}
+
+.checked{
+    display: flex;
+    gap: 10px;
+}
+
+.checked label{
+    color: white;
+}
+
+.screen-1 button{
+    background-color: white;
+    border: none;
+    height: 2em;
+    border-radius: 100px;
+    box-shadow: 0 0 2em #e6e9f9;
+}
+
+.search_section button{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 2em #e6e9f9;
+    width: 5em;
+}
+
+.search_section input{
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    width: 30em;
+}
+
+input[type="checkbox"]{
+    display: flex;
+}
+
+.book_shelf {
+    background-color: #70a8ff;
+    background-image: linear-gradient(0deg,#70a8ff, #9262ff);
+    margin: 16px 0 0 0;
+    border: none;
+    padding: 16px;
+    border-radius: 10px;
+    
+}
+
+.book_shelf > h2 {
+    color: white;
+}
+
+.book_shelf > .book_list {
+    padding: 16px;
+}
+
+.book_shelf > .book_list > .book_item {
+    padding: 8px 16px 16px 16px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.book_shelf > .book_list > .book_item > h3, p {
+    margin: 8px 0;
+}
+
+.book_shelf > .book_list > .book_item > .action > button {
+    border: 0;
+    padding: 5px;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book_shelf > .book_list > .book_item > .action > .green {
+    background-color: darkgreen;
+    color: white;
+}
+
+.book_shelf > .book_list > .book_item > .action > .red {
+    background-color: rgb(178, 0, 0);
+    color: white;
+}
+
+.screen-1 form{
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    gap: 1em;
+
+}
+
+.input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.input_inline > label {
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.book_shelf{
+    color: white;
+    border: white;
+}
